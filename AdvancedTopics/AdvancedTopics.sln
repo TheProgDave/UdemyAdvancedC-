@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTopics", "AdvancedTopics\AdvancedTopics.csproj", "{BC6005F5-5842-48EC-BADD-D4839B335638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedTopics", "AdvancedTopics\AdvancedTopics.csproj", "{BC6005F5-5842-48EC-BADD-D4839B335638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{2F19AE54-5A35-45AF-87D8-B8DC5066050D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{2F19AE54-5A35-45AF-87D8-B8DC5066050D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacePhotoProcessor", "Delegates\InterfacePhotoProcessor.csproj", "{A5FEC980-CDC8-4303-9556-136438F08B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacePhotoProcessor", "Delegates\InterfacePhotoProcessor.csproj", "{A5FEC980-CDC8-4303-9556-136438F08B7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatePhotoProcessor", "DelegatePhotoProcessor\DelegatePhotoProcessor.csproj", "{0D3FF15A-7ED7-4BF8-A352-DC4B5A614C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatePhotoProcessor", "DelegatePhotoProcessor\DelegatePhotoProcessor.csproj", "{0D3FF15A-7ED7-4BF8-A352-DC4B5A614C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{EF4AB30B-F49A-4B78-9553-6C3693EE5025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{EF4AB30B-F49A-4B78-9553-6C3693EE5025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{646F6F4D-8A85-493F-971A-C4FD19F20729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{646F6F4D-8A85-493F-971A-C4FD19F20729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{B544CA1C-0E39-4014-85ED-AF55F078F65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics", "Dynamics\Dynamics.csproj", "{DD866DCE-00F2-4F20-B0D4-ED34E0EE2932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{646F6F4D-8A85-493F-971A-C4FD19F20729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{646F6F4D-8A85-493F-971A-C4FD19F20729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{646F6F4D-8A85-493F-971A-C4FD19F20729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B544CA1C-0E39-4014-85ED-AF55F078F65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B544CA1C-0E39-4014-85ED-AF55F078F65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B544CA1C-0E39-4014-85ED-AF55F078F65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B544CA1C-0E39-4014-85ED-AF55F078F65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD866DCE-00F2-4F20-B0D4-ED34E0EE2932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD866DCE-00F2-4F20-B0D4-ED34E0EE2932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD866DCE-00F2-4F20-B0D4-ED34E0EE2932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD866DCE-00F2-4F20-B0D4-ED34E0EE2932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
